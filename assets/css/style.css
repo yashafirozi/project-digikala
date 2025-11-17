@@ -1,0 +1,15 @@
+@font-face {
+    font-family:'IRANYekan';
+    src:url('../fonts');
+    src:url('../fonts/IRANSansXFaNum-Regular.woff2') format('woff2'),
+    url('../fonts/IRANSansXFaNum-Regular.woff') format('woff');
+}
+html,body {
+    font-family:'IRANsans', sans-serif;
+    justify-content:center;
+    align-items:center;
+    font-size:100%;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
