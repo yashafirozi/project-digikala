@@ -11,26 +11,52 @@
                 rel="stylesheet"
         />
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/reset.css">
     </head>
     <body>
     <header class="position-fixed top-0 start-0 z-4  w-100 d-flex flex-column position-relative" style="height:168px;">
-        <img class="w-100 inline-block" src="assets/img/b1babf15502bf2095303921a9cce56f933c38ba0_1762782176.gif" height="60" alt="" title="" style="object-fit: cover;">
-        <div class="w-100 bg-warning z-5 position-relative d-flex flex-row z-2 pt-3 pb-3 ps-4 pe-4">
-            <div class="d-flex flex-grow-1 align-items-center justify-content-start">
-                <a href="https://www.digikala.com/" class=" flex-shrink-0 ms-3">
-                    <img class="w-100 inline-block" src="assets/img/full-horizontal.svg" width="195" height="30" alt="لوگوی دیجیکالا" title="" style="object-fit: contain;">
-                </a>
-                <div class="d-flex flex-grow-1 ">
-                    <form class="d-flex  align-items-center justify-content-center position-relative w-md-50" style="width:600px">
-                        <input name="title" type="text" class="form-control custom-ph form-control text-secondary w-100 rounded-3 pt-3 pb-3 pe-5 fs-6" style="background-color: rgb(240,240,241); line-height:1rem; height: 50px;" placeholder="جستجو ">
-                        <button class="position-absolute" style="border:none; top:0.8rem; right:0.5rem;" type="submit">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-                            </svg>
-                        </button>
-                    </form>
+        <img class="w-100 inline-block" src="assets/img/81075ce4e3c6a9f9138f92fbede2c16fa1a5f689_1764824897.gif" height="60" alt="" title="" style="object-fit: cover;">
+        <div class="w-100 position-relative d-flex flex-column z-2 pt-3 pb-3 ps-4 pe-4" style="box-shadow: 0 1px 0 rgba(0, 0, 0, .14), 0 2px 0 rgba(0, 0, 0, .05); gap:12px;">
+            <div class="w-100 z-5 position-relative d-flex flex-row">
+                <div class="d-flex flex-grow-1 align-items-center justify-content-start">
+                    <a href="https://www.digikala.com/" class=" flex-shrink-0 ms-3">
+                        <img class="w-100 inline-block" src="assets/img/full-horizontal.svg" width="195" height="30" alt="لوگوی دیجیکالا" title="" style="object-fit: contain;">
+                    </a>
+                    <div class="d-flex flex-grow-1 ">
+                        <form class="d-flex  align-items-center justify-content-center position-relative w-md-50" style="width:600px">
+                            <input name="title" type="text" class="form-control custom-ph form-control  w-100 rounded-3 pt-3 pb-3  fs-6" style="background-color: rgb(240,240,241); color:#81858b; line-height:1rem; padding-right:4rem; height: 50px;" placeholder="جستجو ">
+                            <button class="position-absolute" style="border:none; top:1rem; right:1rem;"  type="submit">
+                                <svg xmlns="http://www.w3.org/2000/svg" style="color:#81858b;" width="24" height="24" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-end" style="gap:20px;">
+                    <a href="#" style="border:#e0e0e2;" class="cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="color:#424750;" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"/>
+                        </svg>
+                    </a>
+                    <button class="border border-1 fw-bolder  d-flex align-items-center" style="font-size:1rem; gap:8px; line-height: 2.17; padding:0.5rem 1.8rem 0.5rem 1.8rem; border-radius:8px; background-color: white;">
+                        <img src="assets/icon/login.svg" alt="login-icon" style="transform: rotate(180deg); width:22px; height:22px;">
+                        ورود | ثبت‌نام
+                    </button>
+                    <span class="" style="background-color:#e0e0e2; width:1px; height:24px;"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16" style="transform: scaleX(-1); cursor:pointer;">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                    </svg>
                 </div>
             </div>
+            <nav class="w-100 justify-content-between d-flex" style="">
+                <div>
+                    <div class="" style="">
+
+                    </div>
+                </div>
+                <div></div>
+            </nav>
         </div>
     </header>
     <script>
